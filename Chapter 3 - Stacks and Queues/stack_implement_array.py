@@ -15,7 +15,7 @@ class Stack:
 		return self.stack.pop()
 
 	def peek(self):
-		return self.stack[len(self.stack-1)]
+		return self.stack[len(self.stack)-1]
 
 def main():
 	s = Stack()
