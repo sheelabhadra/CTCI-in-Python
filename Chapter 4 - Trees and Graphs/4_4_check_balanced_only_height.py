@@ -19,7 +19,7 @@ def height(node):
 	if lh == -sys.maxsize+1:
 		return -sys.maxsize+1
 
-	rh = height(node.left)
+	rh = height(node.right)
 	if rh == -sys.maxsize+1:
 		return -sys.maxsize+1
 
